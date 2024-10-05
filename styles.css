@@ -1,0 +1,220 @@
+.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.Title{
+  padding-left: 20px !important;
+}
+.homecontainer {
+  background-color: rgb(231, 212, 229);
+  display: flex;
+  border-radius: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.about-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.skills-content {
+  margin-top: 20px;
+}
+
+h5 {
+  margin-bottom: 10px;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.val {
+  margin-left: auto;
+
+}
+
+.progress-bar-wrap {
+  background: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: rgb(17, 17, 95);
+}
+
+.resumecontainer {
+  background-color: rgb(230, 228, 230);
+  display: flex;
+  border-radius: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.resume .resume-title {
+  color: var(--heading-color);
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume .resume-title {
+  color: var(--heading-color);
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid var(--accent-color);
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: var(--background-color);
+  border: 2px solid var(--accent-color);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.contact .info-wrap {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.contact .info-item i {
+  font-size: 20px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.contact .info-item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 2px 0;
+}
+
+.contact .info-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+
+
+.contact .email-form textarea {
+  font-size: 14px;
+  padding: 10px 15px;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.contact .email-form button {
+  color: #fff;
+  background: #007bff;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+.skills-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-column {
+  flex: 1;
+  padding: 10px; /* Adjust spacing as needed */
+}
+
+.progress {
+  margin-bottom: 15px; /* Space between progress bars */
+}
+
+.progress-bar-wrap {
+  background-color: #e0e0e0; /* Background color for progress bar */
+  border-radius: 5px;
+}
+
+.progress-bar {
+  background-color: #76c7c0; /* Color for progress fill */
+  height: 20px; /* Height of the progress bar */
+  border-radius: 5px;
+}
